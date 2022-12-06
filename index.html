@@ -18,12 +18,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Шапка сайта -->
     <header class="header section">
-      <div class="block-header container">
+      <div class="header__conteiner container">
         <nav class="navigation">
           <a href="./" class="logo link"><span class="logo accent">Web</span>Studio</a>
           <ul class="nav list navigation">
@@ -55,9 +55,9 @@
     <main>
       <!-- Герой -->
       <section class="hero section">
-        <div class="hero-block container">
-          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-btn" data-modal-open>Замовити послугу</button>
+        <div class="hero__conteiner container">
+          <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="btn-hero hero__btn" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <!-- Наші переваги -->
@@ -434,6 +434,7 @@
         </form>
       </div>
     </footer>
+     <!-- Модалка -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <!-- <button type="button" class="modal-button" data-modal-close>&#10005;</button> -->
