@@ -1,52 +1,46 @@
 .advantage {
-    /* display: flex; */
+  /* display: flex; */
 }
 
-/* Знаю що це не вірно чекаю коли навчать як треба */
-.advantage-hide {
-    display: none;
+.advantage__list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
 }
 
-.advantage.container {}
+.advatage__item {
+  width: 270px;
+  height: 120px;
+  background: var(--bcg-grey);
+  border-radius: 4px;
 
-.advantage-list-icon {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.advatage-item-icon {
-    width: 270px;
-    height: 120px;
-    background: var(--bcg-grey);
-    border-radius: 4px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.advantage__icon {
 }
 
-.advantage-icon {}
-
-.advatage-text-list {
-    display: flex;
-    gap: 30px;
+.advatage-text {
+  display: flex;
+  gap: 30px;
 }
 
-.advantage-point {
-    width: calc(100% - 3 * 30px / 4);
+.advatage-text__point {
+  width: calc(100% - 3 * 30px / 4);
 }
 
-.advantage-title {
-    font-weight: 700;
-    line-height: 1.14;
-    text-transform: uppercase;
-    font-size: 14px;
+.advatage-text__title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
-.advantage-item {
-    color: var(--color-grey);
-    line-height: 1.7;
-    margin-top: 10px;
+.advatage-text__item {
+  color: var(--color-grey);
+  line-height: 1.7;
+  margin-top: 10px;
 }
