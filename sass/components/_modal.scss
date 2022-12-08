@@ -130,10 +130,6 @@
   color: var(--color-grey);
   padding-left: 36px;
   margin-bottom: 30px;
-}
-
-.link-form {
-  color: var(--color-accent);
 
   &::before {
     content: '';
@@ -150,10 +146,13 @@
   }
 }
 
+.link-form {
+  color: var(--color-accent);
+}
+
 .checkbox-policy:checked + .label-plicy-form::before {
   border: none;
-  background-image: url(../images/icon\ check.svg);
+  background-image: url(../../images/icon\ check.svg);
   background-size: contain;
   background-repeat: no-repeat;
 }
-
